@@ -1,0 +1,8 @@
+# Write a program to accept a sentence from the user and reverse its each word.
+
+
+
+import sys
+s1 = input("Enter a Sentence: ").split(' ')
+
+print(" ".join([i[len(i)::-1] for i in s1]))
