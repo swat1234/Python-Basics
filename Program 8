@@ -1,0 +1,13 @@
+# Write a program to accept a string value from the user and accept a char value from the user and and find out the total occurrence of char value in the string value.
+
+
+
+import sys
+s1 = input("Enter a String: ")
+s2 = input("Enter a char: ")
+c = 0
+for i in s1:
+    
+    if i.lower() == s2.lower():
+        c += 1
+print(c)
