@@ -1,0 +1,8 @@
+# Write a program to accept 'n' numbers from user,store these numbers into an array and sort the numbers of an array using function
+
+import sys
+n = input("Enter a number:")
+
+a = [int(i) for i in str(n)]
+
+print(sorted(a))
