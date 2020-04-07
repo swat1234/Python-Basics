@@ -1,0 +1,8 @@
+# Write a program to accept 'n' numbers from user,store these numbers into an array. Find out max and min number from the array
+
+import sys
+n = input("Enter a number:")
+
+a = [int(i) for i in str(n)]
+
+print(max(a), min(a))
