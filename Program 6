@@ -1,0 +1,7 @@
+# Write a program to calculate the sum of first digit and last digit of a given number
+
+
+import sys
+n = input("Enter a number: ")
+s = int(n[0]) + int(n[-1])
+print(s)
