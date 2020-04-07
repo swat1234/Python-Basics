@@ -1,0 +1,24 @@
+# Write a program to accept four digit number from user and count zero, odd and even digits from the entered number
+
+
+import sys
+n = input("Enter a four number:")
+
+if ((len(n) != 4 ) or (type(int(n)) != int)):
+    print("Entered number is not valid. Enter 4 digit number")
+    sys.exit()
+
+print(n)
+zero, c1, c2 = 0,0,0
+even = [2,4,6,8]
+odd = [1,3,5,7,9]
+
+for i in n:
+    if int(i) in even:
+        c1 +=1
+    if int(i) in odd:
+        c2 += 1
+    if int(i) == 0:
+        zero += 1
+
+print("Zeros:",zero,"Even:", c1, " odd: ", c2)
