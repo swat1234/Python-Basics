@@ -1,0 +1,9 @@
+# Write a program to calculate the sum of digits of a given number
+
+
+import sys
+n = input("Enter a number: ")
+s = 0
+for i in n:
+    s += int(i)
+print(s)
