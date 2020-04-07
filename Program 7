@@ -1,0 +1,11 @@
+# Write a program to accept a string from user , delete all vowels from the string and display the result.
+
+
+import sys
+n1 = input("Enter a String ")
+n2 = []
+vowels = ['a','e','i','0','u']
+for i in n1:
+    if i not in vowels:
+        n2.append(i)
+print(''.join(n2))
